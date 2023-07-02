@@ -1040,7 +1040,7 @@ let ribonsLength = 0;
 
 dimensionArr.forEach(arr => {
     let l1 = arr[0]*arr[1]*arr[2];
-    arr.sort((a,b) => a - b);
+
     let l2 = arr[0]*2 + arr[1]*2;
     ribonsLength += l1 + l2;
     
